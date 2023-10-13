@@ -1,6 +1,11 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    int numbers[] = {1, 2, 3, 4, 5};
+
+    for(auto &number : numbers)
+    {
+        std::cout << number << " ";
+    }
+
 }
